@@ -8,3 +8,8 @@ for(int i = 0; i < a.Length; i++){
         count = count + 1;
         //Console.Write("Длина" + count);
     }
+    if (count < 4){
+        Console.Write($" {a[i]}, ");
+    }
+    
+}
