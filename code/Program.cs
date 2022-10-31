@@ -13,3 +13,4 @@ for(int i = 0; i < a.Length; i++){
     }
     
 }
+Console.Write("]");
