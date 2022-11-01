@@ -16,10 +16,15 @@ for(int i = 0; i < a.Length; i++){
     }
     
 }
+string [] c = new string [k+1];
+int l = 0;
 for(int i = 0; i < k; i++){
+    c[l] = b[i];
+    l++;
     Console.Write(b[i] + ", ");
 }
 for(int i = k; i < k+1; i++){
+    c[l] = b[i];
     Console.Write(b[i]);
 }
 Console.Write("]");
